@@ -1,0 +1,2 @@
+*A browser can process js , xml,css,json and wasm - web assembly.A browser is restricted from acceswing the file system and databases.
+
