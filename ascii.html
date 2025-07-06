@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arrow Key ASCII / Key Code Reader</title>
+</head>
+<body>
+  <h2>Press any key (including arrow keys)</h2>
+  <p id="output">Waiting for key press...</p>
+
+  <script>
+    window.addEventListener("keydown", function(event) {
+      const output = document.getElementById("output");
+      output.innerHTML = `
+        <strong>Key Pressed:</strong> ${event.key} <br>
+        <strong>Key Code:</strong> ${event.keyCode} <br>
+      `;
+      console.log(`Key: ${event.key}, Code: ${event.code}, KeyCode: ${event.keyCode}`);
+    });
+  </script>
+</body>
+</html>
