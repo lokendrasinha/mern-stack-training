@@ -1,2 +1,8 @@
 *A browser can process js , xml,css,json and wasm - web assembly.A browser is restricted from acceswing the file system and databases.
 
+
+*thins will be learning
+
+datatypes,variables,control statements,loops,data structure(Arrays & objects)
+file handling,database handling
+ES6 features
